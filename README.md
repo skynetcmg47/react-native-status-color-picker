@@ -1,10 +1,8 @@
 # React Native Status Color Picker
-
+This repo is forked from https://github.com/ThakurBallary/react-native-status-color-picker
 Customizable color picker for your beautiful react native apps
 
 ![LICENSE MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)
-
-[![NPM](https://nodei.co/npm/react-native-status-color-picker.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-status-color-picker/)
 
 ### Getting Started
 
@@ -22,7 +20,7 @@ Each component is independent and explained in Basic Usage section below. Use th
 
 ### Installation
 ```
-npm i react-native-status-color-picker --save
+npm i @skynetcmg47/react-native-status-color-picker --save
 ```
 
 ### Basic Usage
@@ -33,7 +31,7 @@ npm i react-native-status-color-picker --save
 import React, { Component } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
-import { ColorPicker } from 'react-native-status-color-picker';
+import { ColorPicker } from '@skynetcmg47/react-native-status-color-picker';
 
 export default class App extends Component {
   state = {
@@ -76,7 +74,7 @@ const styles = StyleSheet.create({
 import React, { Component } from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import { FullScreenColorStatus } from 'react-native-status-color-picker';
+import { FullScreenColorStatus } from '@skynetcmg47/react-native-status-color-picker';
 
 export default class App extends Component {
   state = {
@@ -118,7 +116,7 @@ import React, { Component } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 
-import { StatusColorPicker } from 'react-native-status-color-picker';
+import { StatusColorPicker } from '@skynetcmg47/react-native-status-color-picker';
 
 export default class App extends Component {
   state = {
@@ -180,6 +178,7 @@ Key | Type | Default | Value
 color | Array | [] | hex color code
 selectedColor | String | '' | mention any one color from array of colors
 onSelect | Function | | pass function to execute onSelect of color
+style | JSON | style for circle color picker
 
 ###### FullScreenColorStatus
 Key | Type | Default | Value

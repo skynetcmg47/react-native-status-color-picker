@@ -1,5 +1,5 @@
 {
-  "name": "react-native-status-color-picker",
+  "name": "@skynetcmg47/react-native-status-color-picker",
   "version": "1.0.4",
   "description": "Customizable color picker for your beautiful react native apps",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thakurballary/react-native-status-color-picker.git"
+    "url": "git+https://github.com/skynetcmg47/react-native-status-color-picker.git"
   },
   "keywords": [
     "react native color picker",
@@ -20,10 +20,10 @@
     "android",
     "mobile app development"
   ],
-  "author": "Thakur Ballary",
+  "author": "Nam Phuong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thakurballary/react-native-status-color-picker/issues"
+    "url": "https://github.com/skynetcmg47/react-native-status-color-picker/issues"
   },
-  "homepage": "https://github.com/thakurballary/react-native-status-color-picker#readme"
+  "homepage": "https://github.com/skynetcmg47/react-native-status-color-picker#readme"
 }
